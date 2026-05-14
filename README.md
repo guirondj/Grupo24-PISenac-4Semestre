@@ -10,7 +10,7 @@
 **Lucas Washington Menezes Guiron**<br>
 **Mateus Nascimento Nogueira**<br>
 **Sidney Alexandre Ribeiro Da Cruz**<br>
-**Vitoria Pereira De Souza Cosmo Silva**<br><br><br>
+**Vitoria Pereira De Souza Cosmo Silva**<br><br>
 
 ## Documentação do Projeto
 
