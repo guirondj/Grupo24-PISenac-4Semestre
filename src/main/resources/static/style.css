@@ -201,6 +201,78 @@
 		margin-bottom: 70px;	
 	}
 	
+	.titulo-mentorado{
+		font-size: 2rem;
+		text-alig: center;
+	}
+	
+	.tutoria{
+		display: flex;
+		flex-direction: column;
+		font-size: 2rem;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.tutoria a{
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 400px;
+		height: 70px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 70px;
+		text-align: center;
+		
+	}
+	
+		.curso-inteligencia{
+		display: flex;
+		flex-direction: column;
+		font-size: 2rem;
+		justify-content: center;
+		align-items: center;
+		background-color: white;
+		padding: 20px;
+		color: #295bbe;
+		gap: 20px;
+		border-radius: 10px;
+	}
+	
+	.curso-inteligencia h2{
+		margin-bottom: 10px;
+	}
+	
+	.curso-inteligencia img{
+		width: 400px;
+		heigth: 200px;
+		border-radius: 10px;
+	}
+	
+	.curso-inteligencia a{	
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 400px;
+		height: 70px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 70px;
+		text-align: center;
+	}
+	
+	
 	
 	
 }
@@ -407,6 +479,78 @@
 		margin-bottom: 70px;	
 	}
 	
+	.titulo-mentorado{
+		font-size: 2rem;
+		text-alig: center;
+	}
+	
+	.tutoria{
+		display: flex;
+		flex-direction: column;
+		font-size: 2rem;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.tutoria a{
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 400px;
+		height: 70px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 70px;
+		text-align: center;
+		
+	}
+	
+		.curso-inteligencia{
+		display: flex;
+		flex-direction: column;
+		font-size: 2rem;
+		justify-content: center;
+		align-items: center;
+		background-color: white;
+		padding: 20px;
+		color: #295bbe;
+		gap: 20px;
+		border-radius: 10px;
+	}
+	
+	.curso-inteligencia h2{
+		margin-bottom: 10px;
+	}
+	
+	.curso-inteligencia img{
+		width: 400px;
+		heigth: 200px;
+		border-radius: 10px;
+	}
+	
+	.curso-inteligencia a{	
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 400px;
+		height: 70px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 70px;
+		text-align: center;
+	}
+	
+	
 	
 	
 }
@@ -600,7 +744,7 @@
 	}
 	
 	.painel-cadastro button{
-	border: solid 2px;
+		border: solid 2px;
 		border-color: #584929;
 		background-color: #ae8854;
 		color: #ffffff;
@@ -613,6 +757,76 @@
 		margin-bottom: 70px;	
 	}
 	
+	.titulo-mentorado{
+		font-size: 2rem;
+		text-alig: center;
+	}
+	
+	.tutoria{
+		display: flex;
+		flex-direction: column;
+		font-size: 2rem;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.tutoria a{
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 400px;
+		height: 70px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 70px;
+		text-align: center;
+		
+	}
+	
+	.curso-inteligencia{
+		display: flex;
+		flex-direction: column;
+		font-size: 2rem;
+		justify-content: center;
+		align-items: center;
+		background-color: white;
+		padding: 20px;
+		color: #295bbe;
+		gap: 20px;
+		border-radius: 10px;
+	}
+	
+	.curso-inteligencia h2{
+		margin-bottom: 10px;
+	}
+	
+	.curso-inteligencia img{
+		width: 400px;
+		heigth: 200px;
+		border-radius: 10px;
+	}
+	
+	.curso-inteligencia a{	
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 400px;
+		height: 70px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 70px;
+		text-align: center;
+	}
 	
 }
 	

@@ -30,6 +30,23 @@ public class HomeController {
     public String cadastrarMentorado() {
         return "EduMatch/cadastrarMentorado"; 
     }
+	
+	@GetMapping("/mentoradoLogado")
+    public String mentoradoLogado() {
+        return "EduMatch/mentoradoLogado"; 
+    }
+	
+	@GetMapping("/cursos")
+    public String cursos() {
+        return "EduMatch/cursos"; 
+    }
+	
+	@GetMapping("/agendarMentoria")
+    public String agendarMentoria() {
+        return "EduMatch/agendarMentoria"; 
+    }
+
+
 
 
 

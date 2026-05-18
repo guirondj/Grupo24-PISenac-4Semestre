@@ -15,7 +15,13 @@
 				<h1 class="corUm">Edu</h1>
 				<h1 class="corDois">Match</h1>
 			</div>
-			
+			<form class="painel-cadastro">
+				<p>Login (E-mail): </p>
+				<input type="email" name="login" />
+				<p>Senha: </p>
+				<input type="password" name="senha" />
+				<a th:href="@{/mentoradoLogado}"> <button type="button" name="enviar">Entrar</button> </a>		
+			</form>
 		</div>	
 	</body>
 </html>
