@@ -1,0 +1,34 @@
+<!Doctype html/>
+
+<html lang="pt-br">
+	<head>
+		<title>EduMatch - Cadastrar</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" th:href="@{/reset.css}"/>
+		<link rel="stylesheet" type="text/css" th:href="@{/base.css}"/>
+		<link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+	</head>
+	<body>
+		<div class="conteiner-principal">
+			<div class="logomarca">
+				<img alt="logo Edu Match" th:src="@{/imagens/livro.png}"/>
+				<h1 class="corUm">Edu</h1>
+				<h1 class="corDois">Match</h1>
+			</div>
+			<div class="titulo-cadastrar">
+				<h1>Qual o papel que você busca desempenhar?</h1>
+			</div>
+			<div class="cadastrando">
+				<div>
+					<a th:href="@{/cadastrarMentor}"><strong>Mentor</strong></a>
+				</div>
+				<div>
+					<a th:href="@{/cadastrarMentorado}"><strong>Mentorado</strong></a>
+				</div>	
+			</div>
+			<div class="imagem-mentorando">
+				<img alt="Imagem de um aluno sendo mentorado" th:src="@{/imagens/mentorando.png}"/>
+			</div>		
+		</div>	
+	</body>
+</html>

@@ -1,0 +1,618 @@
+@media screen and (min-width: 0){
+	
+	.conteiner-principal{
+		width: 374px;
+		margin-right: auto;
+		margin-left: auto;		
+	}
+	
+	.conteiner-principal div{
+		margin-bottom: 150px;
+	}
+	
+	.logomarca {
+		display: flex;
+		flex-direction: row;
+		align-items: center;		
+	}
+	
+	.logomarca img{
+		width: 100px;
+	}
+	
+	.corUm{
+		color: #ae8854;
+	}
+	
+	.paragrafo1{
+		color: #ae8854;
+		font-size:5rem;
+	}
+	
+	.paragrafo2{
+		font-size: 5rem;
+		align-items: right;
+		margin-left: 150px;
+	}
+	
+	.linkAcesso{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		color: #ae8854;
+		font-size: 5rem;
+	}
+	
+	.linkAcesso img{
+		width: 100px;
+	}
+	
+	.login-cadastrado{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		align-items: center;
+	}
+	.login-cadastrado h1{
+		font-size: 3rem;
+		text-align: center;
+	}
+	
+	.login-cadastrado strong{
+		font-size: 2rem;
+		text-align: center;
+	}
+	
+	.login-cadastrado a{
+		background-color: #ae8854;
+		font-size: 2rem;
+		width: 250px;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.login-nao-cadastrado{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		align-items: center;
+		background-color: #ffffff; 
+		border-radius: 10px;
+		height: 300px;
+		color: #ae8854;
+		padding: 20px;
+	}
+	.login-nao-cadastrado h1{
+		font-size: 3rem;
+		text-align: center;
+	}
+	
+	.login-nao-cadastrado strong{
+		font-size: 2rem;
+		text-align: center;
+	}
+	
+	.login-nao-cadastrado a{
+		background-color: #ae8854;
+		font-size: 2rem;
+		width: 250px;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+		color: #295bbe;
+	}
+	
+	.cadastrando{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		align-items: center;
+		background-color: #ffffff; 
+		border-radius: 10px;
+		height: 300px;
+		color: #ae8854;
+		padding: 20px;
+		justify-content: flex-end;
+	}
+	
+	.cadastrando div a{
+		background-color: #ae8854;
+		font-size: 2rem;
+		width: 250px;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+		color: #295bbe;			
+	}
+	
+	.titulo-cadastrar{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	
+	.imagem-mentorando{
+		width: 600px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.painel-cadastro{
+		background-color: #ffffff;
+		display: flex;
+		flex-direction: column;
+		color: #295bbe;
+		font-size: 1.2rem;
+		gap: 10px;
+		align-items: center;
+		align-content: center;
+		border-radius: 10px;		
+	}
+	
+	.painel-cadastro p{
+		font-weight: bolder;
+		margin-top: 20px;
+	}
+	
+	.painel-cadastro label{
+		font-weight: bolder;
+		margin-top: 20px;
+	}
+	
+	.painel-cadastro input{
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 600px;
+		height: 50px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;		
+	}
+	
+	.painel-cadastro select{
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 600px;
+		height: 50px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 40px;	
+	}
+	
+	.painel-cadastro button{
+	border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 200px;
+		height: 50px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 70px;	
+	}
+	
+	
+	
+}
+
+@media screen and (min-width: 768px){
+	.conteiner-principal{
+		width: 768px;
+		margin-right: auto;
+		margin-left: auto;		
+	}
+	
+	.conteiner-principal div{
+		margin-bottom: 70px;
+	}
+	
+	.logomarca {
+		display: flex;
+		flex-direction: row;
+		align-items: center;		
+	}
+	
+	.logomarca img{
+		width: 100px;
+	}
+	
+	.corUm{
+		color: #ae8854;
+	}
+	
+	.paragrafo1{
+		color: #ae8854;
+		font-size:5rem;
+	}
+	
+	.paragrafo2{
+		font-size: 5rem;
+		align-items: right;
+		margin-left: 150px;
+	}
+	
+	.linkAcesso{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		color: #ae8854;
+		font-size: 5rem;
+	}
+	
+	.linkAcesso img{
+		width: 100px;
+	}
+	
+	.login-cadastrado{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		align-items: center;
+	}
+	.login-cadastrado h1{
+		font-size: 3rem;
+		text-align: center;
+	}
+	
+	.login-cadastrado strong{
+		font-size: 2rem;
+		text-align: center;
+	}
+	
+	.login-cadastrado a{
+		background-color: #ae8854;
+		font-size: 2rem;
+		width: 250px;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.login-nao-cadastrado{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		align-items: center;
+		background-color: #ffffff; 
+		border-radius: 10px;
+		height: 300px;
+		color: #ae8854;
+		padding: 20px;
+	}
+	.login-nao-cadastrado h1{
+		font-size: 3rem;
+		text-align: center;
+	}
+	
+	.login-nao-cadastrado strong{
+		font-size: 2rem;
+		text-align: center;
+	}
+	
+	.login-nao-cadastrado a{
+		background-color: #ae8854;
+		font-size: 2rem;
+		width: 250px;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+		color: #295bbe;
+	}
+	
+	.cadastrando{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		align-items: center;
+		background-color: #ffffff; 
+		border-radius: 10px;
+		height: 300px;
+		color: #ae8854;
+		padding: 20px;
+		justify-content: flex-end;
+	}
+	
+	.cadastrando div a{
+		background-color: #ae8854;
+		font-size: 2rem;
+		width: 250px;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+		color: #295bbe;			
+	}
+	
+	.titulo-cadastrar{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	
+	.imagem-mentorando{
+		width: 600px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.painel-cadastro{
+		background-color: #ffffff;
+		display: flex;
+		flex-direction: column;
+		color: #295bbe;
+		font-size: 1.2rem;
+		gap: 10px;
+		align-items: center;
+		align-content: center;
+		border-radius: 10px;		
+	}
+	
+	.painel-cadastro p{
+		font-weight: bolder;
+		margin-top: 20px;
+	}
+	
+	.painel-cadastro label{
+		font-weight: bolder;
+		margin-top: 20px;
+	}
+	
+	.painel-cadastro input{
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 600px;
+		height: 50px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;		
+	}
+	
+	.painel-cadastro select{
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 600px;
+		height: 50px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 40px;	
+	}
+	
+	.painel-cadastro button{
+	border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 200px;
+		height: 50px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 70px;	
+	}
+	
+	
+	
+}
+
+@media screen and (min-width: 992px){
+	.conteiner-principal{
+		width: 992px;
+		margin-right: auto;
+		margin-left: auto;		
+	}
+	
+	.conteiner-principal div{
+		margin-bottom: 70px;
+	}
+	
+	.logomarca {
+		display: flex;
+		flex-direction: row;
+		align-items: center;		
+	}
+	
+	.logomarca img{
+		width: 100px;
+	}
+	
+	.corUm{
+		color: #ae8854;
+	}
+	
+	.paragrafo1{
+		color: #ae8854;
+		font-size:5rem;
+	}
+	
+	.paragrafo2{
+		font-size: 5rem;
+		align-items: right;
+		margin-left: 150px;
+	}
+	
+	.linkAcesso{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		color: #ae8854;
+		font-size: 5rem;
+	}
+	
+	.linkAcesso img{
+		width: 100px;
+	}
+	
+	.login-cadastrado{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		align-items: center;
+	}
+	.login-cadastrado h1{
+		font-size: 3rem;
+		text-align: center;
+	}
+	
+	.login-cadastrado strong{
+		font-size: 2rem;
+		text-align: center;
+	}
+	
+	.login-cadastrado a{
+		background-color: #ae8854;
+		font-size: 2rem;
+		width: 250px;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.login-nao-cadastrado{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		align-items: center;
+		background-color: #ffffff; 
+		border-radius: 10px;
+		height: 300px;
+		color: #ae8854;
+		padding: 20px;
+	}
+	.login-nao-cadastrado h1{
+		font-size: 3rem;
+		text-align: center;
+	}
+	
+	.login-nao-cadastrado strong{
+		font-size: 2rem;
+		text-align: center;
+	}
+	
+	.login-nao-cadastrado a{
+		background-color: #ae8854;
+		font-size: 2rem;
+		width: 250px;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+		color: #295bbe;		
+	}
+	
+	.cadastrando{
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		align-items: center;
+		background-color: #ffffff; 
+		border-radius: 10px;
+		height: 300px;
+		color: #ae8854;
+		padding: 20px;
+		justify-content: flex-end;
+	}
+	
+	.cadastrando div a{
+		background-color: #ae8854;
+		font-size: 2rem;
+		width: 250px;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+		color: #295bbe;			
+	}
+	
+	.titulo-cadastrar{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	
+	.imagem-mentorando{
+		width: 600px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.painel-cadastro{
+		background-color: #ffffff;
+		display: flex;
+		flex-direction: column;
+		color: #295bbe;
+		font-size: 1.2rem;
+		gap: 10px;
+		align-items: center;
+		align-content: center;
+		border-radius: 10px;		
+	}
+	
+	.painel-cadastro p{
+		font-weight: bolder;
+		margin-top: 20px;
+	}
+	
+	.painel-cadastro label{
+		font-weight: bolder;
+		margin-top: 20px;
+	}
+	
+	.painel-cadastro input{
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 600px;
+		height: 50px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;		
+	}
+	
+	.painel-cadastro select{
+		border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 600px;
+		height: 50px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 40px;	
+	}
+	
+	.painel-cadastro button{
+	border: solid 2px;
+		border-color: #584929;
+		background-color: #ae8854;
+		color: #ffffff;
+		width: 200px;
+		height: 50px;
+		border-radius: 10px;
+		font-size: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 70px;	
+	}
+	
+	
+}
+	

@@ -1,0 +1,43 @@
+<!Doctype html/>
+
+<html lang="pt-br">
+	<head>
+		<title>EduMatch - Cadastrar Mentorado</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" th:href="@{/reset.css}"/>
+		<link rel="stylesheet" type="text/css" th:href="@{/base.css}"/>
+		<link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+	</head>
+	<body>
+		<div class="conteiner-principal">
+			<div class="logomarca">
+				<img alt="logo Edu Match" th:src="@{/imagens/livro.png}"/>
+				<h1 class="corUm">Edu</h1>
+				<h1 class="corDois">Match</h1>
+			</div>
+			<div class="titulo-cadastrar">
+				<h1>Criando Uma Conta - Mentorado</h1>
+			</div>
+			
+<form class="painel-cadastro" th:action="@{/cadastrarMentorado}" method="post">
+					<p>Nome: </p>
+					<input type="text" name="nome" />
+					<p>E-Mail (Login): </p>
+					<input type="email" name="login" />
+					<p>Senha: </p>
+					<input type="password" name="senha" />
+					<label for="areasdeatuacao">Escolha uma área de Atuação</label>
+					<select name="areaAtuacao" id="areasdeatuacao">
+						<option value ="tecnologia" >Tecnologia</option>
+						<option value ="administracao" >Administração</option>
+						<option value ="educacao" >Educação</option>
+						<option value ="financas" >Finanças</option>				
+					</select>
+					
+					<button type="submit" name="enviar">Enviar</button> 
+				</form>				
+			
+			
+		</div>	
+	</body>
+</html>
